@@ -35,7 +35,7 @@ function validarcpf(cpf) {
     if (validate_dv1 == sequenciacpf[9] && validate_dv2 == sequenciacpf[10]) {
         console.log(`CPF ${cpf} validado!`)
     } else {
-        console.log(`CPF ${cpf} incorreto, verifique novamente!`)
+        console.log(`CPF ${cpf} incorreto ou inexistente. Verifique novamente!`)
     }
 
 }
