@@ -1,21 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    /* outline: 1px black dotted; */
     box-sizing: border-box;
 }
 
 body {
     background-color: #820AD1;
-    min-height: 100vh;
     /* background-color: #81259d; */
+    min-height: 100vh;
     font-family: sans-serif;
     display: grid;
     place-items: center;
 }
 
 .logo {
-
     position: absolute;
     margin: 2rem;
 }
@@ -66,7 +64,6 @@ input {
 input:focus {
     outline: none;
     color: #8d3dc8;
-
 }
 
 button {
@@ -107,7 +104,6 @@ a:hover, a:focus {
 a:first-of-type {
     margin-top: 3rem;
 }
-
 
 a + a {
     margin-top: 1.125rem;
